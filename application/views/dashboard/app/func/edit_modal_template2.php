@@ -8,7 +8,7 @@ if ($edit) {
     $testimonial = $master->_get("testimonial", array("uid" => _get("id")));
     if (!$testimonial) {
         return;
-    }
+    } 
 
     $action = "update";
 }

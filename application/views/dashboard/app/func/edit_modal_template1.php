@@ -7,7 +7,7 @@ $edit = _get("action") == "edit";
 if ($edit) {
     $casket = $master->_get("casket", array("uid" => _get("id")));
     if (!$casket) {
-        return;
+        return; 
     }
 
     $action = "update";

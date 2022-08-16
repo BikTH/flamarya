@@ -9,7 +9,7 @@
         <!--        <input type="text" required class="form-control form-control-sm" value="<?= $user->name; ?>" maxlength="14" id="label_name" name="name" placeholder="Name" />-->
         <!--        <label for="label_name">Name</label>-->
         <!--    </div>-->
-        <!--</div>-->
+        <!--</div>--> 
         <div class="row align-items-center justify-content-center">
             <div class="col-md-6">
                 <div class="form-group">
