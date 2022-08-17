@@ -1,7 +1,7 @@
 <?php
 $currentLang = (array_key_exists("lang", $_SESSION) && $_SESSION['lang']) ? $_SESSION['lang'] : $self->defaultLanguage;
 ?>
-<div class="call-to-action bg-black py-5 m-0">
+<!--<div class="call-to-action bg-black py-5 m-0">
     <div class="container">
         <div class="row align-items-center flex-wrap-reverse">
             <div class="col-lg-12">
@@ -11,8 +11,8 @@ $currentLang = (array_key_exists("lang", $_SESSION) && $_SESSION['lang']) ? $_SE
             </div>
         </div>
     </div>
-</div>
-<footer class="footer border-top border-dark">
+</div>-->
+<!--<footer class="footer border-top border-dark">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 text-md-start text-center">
@@ -34,7 +34,7 @@ $currentLang = (array_key_exists("lang", $_SESSION) && $_SESSION['lang']) ? $_SE
             </ul>
         </div>
     </div>
-</footer>
+</footer> -->
 <div class="cookie-alert-footer" id="cookiefooter">
     <div class="container text-center">
         <div class="font-14">

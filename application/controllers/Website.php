@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Website extends MaryFuneral {
+class Website extends Flamarya {
 	
 	protected $activePage = null;
 	

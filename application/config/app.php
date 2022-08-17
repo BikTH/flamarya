@@ -6,6 +6,7 @@ $config["app"] = "Flamarya";
 
 
 $config['base_url'] = 'https://flamaryatest.herokuapp.com/';
+//$config['base_url'] = 'https://flamarya.dev/';
 $config["default_timezone"] = "Africa/Douala";
 
 

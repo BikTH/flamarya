@@ -16,7 +16,7 @@ $imageSEO = isset($meta) && is_array($meta) ? $meta["image"] : false;
 
     <link rel="icon" type="image/png" href="/public/favicon.png?c" />
 
-    <title><?= $title; ?> — Mary Funeral Services</title>
+    <title><?= $title; ?> | KOKI Anaïs Geneviève</title>
     <meta name="title" content="<?= $title; ?>">
     <meta name="description" content="<?= $description; ?>">
     <meta property="og:type" content="website">
@@ -39,8 +39,8 @@ $imageSEO = isset($meta) && is_array($meta) ? $meta["image"] : false;
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
 
-    <meta name="theme-color" content="#272f6d" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#272f6d" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#9448BC" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#9448BC" media="(prefers-color-scheme: dark)">
     <meta name="color-scheme" content="light dark">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -55,19 +55,19 @@ $imageSEO = isset($meta) && is_array($meta) ? $meta["image"] : false;
     <link rel="stylesheet" href="https://unpkg.com/lightgallery@2.5.0/css/lg-zoom.css" />
     <link rel="stylesheet" href="https://unpkg.com/lightgallery@2.5.0/css/lg-thumbnail.css" />
 
-    <link rel="stylesheet" href="/public/assets/css/confirm.css" />
+    <link rel="stylesheet" href="<?= assets("css/confirm.css"); ?>" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <meta name="keywords" content="" />
-    <meta name="author" content="N&M SARL" />
+    <meta name="author" content="Rupasan" />
     <script type='application/ld+json'>
         {
             "@context": "http://www.schema.org",
-            "@type": "ProfessionalService",
-            "name": "Mary Funeral Services",
+            "@type": "CV / Blog / Portfolio",
+            "name": "Koki Anaïs Geneviève",
             "url": "https://www.maryfuneral.com",
             "logo": "https://www.maryfuneral.com/public/logo.png",
             "image": "https://www.maryfuneral.com/public/assets/img/seo/seo-main.jpg",
@@ -75,7 +75,7 @@ $imageSEO = isset($meta) && is_array($meta) ? $meta["image"] : false;
             "description": "We assist you in the organization of funeral activities after the loss of a loved one.",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Mvog ada, Yaoundé",
+                "streetAddress": "Vivien Foe 1273, Yaoundé, Cameroun",
                 "addressLocality": "Yaounde",
                 "addressRegion": "CENTRE",
                 "postalCode": "00000",
@@ -91,11 +91,11 @@ $imageSEO = isset($meta) && is_array($meta) ? $meta["image"] : false;
             "telephone": "+237656115610"
         }
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D79QFRC787"></script>
-    <script>
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-D79QFRC787"></script>-->
+    <!--<script>
         window.dataLayer = window.dataLayer || [];function gtag() {dataLayer.push(arguments);}
         gtag('js', new Date());gtag('config', 'G-D79QFRC787');
-    </script>
+    </script> -->
 </head>
 
 <body id="website">
