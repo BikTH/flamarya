@@ -21,11 +21,11 @@ $active = isset($active) ? $active : "home";
                     <li class="nav-item"><a class="nav-link <?php echo ($active == "portfolio") ? "active" : ""; ?>" href="/">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo ($active == "contact") ? "active" : ""; ?>" href="/">Contact</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo ($active == "blog") ? "active" : ""; ?>" href="/">Blog</a></li>
-                    <?php if ($self->language == "en") : ?>
+                    <!--<?php if ($self->language == "en") : ?>
                         <li class="nav-item"><a class="nav-link" href="?lang=fr"><span class="mdi mdi-translate"></span> FR</a></li>
                     <?php else : ?>
                         <li class="nav-item"><a class="nav-link" href="?lang=en"><span class="mdi mdi-translate"></span> EN</a></li>
-                    <?php endif; ?>
+                    <?php endif; ?>-->
                 </ul>
             </div>
             <div class="d-flex align-items-center" id="offcanvas_">
