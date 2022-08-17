@@ -38,7 +38,7 @@
 }
 
 body{font-weight: 400;font-family: "circular", sans-serif; height: 100vh;  color: #000;}
-body#website {padding-top: 116px;}
+body#website {padding-top: 76px;}
 body#app {padding-top: 60px;}
 input[type=text], .form-control, .btn-close, .alert, input[type=search], input[type=password], input[type=email], textarea, select, .nav-tabs .nav-link, .card, .custom-checkbox .custom-control-label::before, .input-group-text, .dropdown-menu, .btn{outline: 0 !important; box-shadow: none !important; border-radius: 0 !important; }
 .form-floating select, .modal-content, .jconfirm-box {border-radius: 0 !important;}
